@@ -1,0 +1,43 @@
+a { color: #343a40; }
+
+@media (max-width: 768px) {
+    .small-box {
+        text-align: left;
+    }
+    .small-box .icon {
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .small-box .icon > img {
+        height: 75px !important;
+    }
+    .small-box .inner > h4 {
+        position: relative;
+        z-index: 100 !important;
+    }
+}
+.small-box .icon > img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    height: 90px;
+}
+.small-box .inner > h3 {
+    font-size: 36pt;
+}
+.bg-violet {
+    background-color: #a71f8b;
+    color: #ffffff;
+}
+.location { 
+    background-size: cover;
+    background-color: transparent !important;
+    box-shadow: none;
+    min-height: 160px;
+    border-radius: 20px;
+}
+.main-footer i {
+    font-size: 16pt;
+}
+

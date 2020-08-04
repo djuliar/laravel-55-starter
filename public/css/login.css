@@ -1,0 +1,7 @@
+@media (max-width: 768px) { 
+    body { background: none !important }
+    .login-logo img { width: 80%; }
+}
+@media (min-width: 576px) { 
+    .login-box { width: 675px;}
+}
